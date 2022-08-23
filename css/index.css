@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+:root {
+    --orange: #e75e15;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin-left: 50px;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>img {
+    display: flex;
+    height: 40%;
+}
+
+nav .nav-items {
+    flex: 0.6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Montserrat';
+    color: #666666;
+}
+
+nav .nav-items :hover {
+    font-weight: bolder;
+    color: var(--orange);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.intro-section {
+    display: flex;
+    flex: 1;
+    height: 85vh;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    min-height: 100%;
+    align-items: flex-start;
+}
+
+.right-section {
+    overflow: hidden;
+}
+
+.headphone-div>:last-child {
+    position: absolute;
+    height: 55%;
+    right: 220px;
+    top: 130px;
+}
+
+.left-section h3 {
+    font-family: 'Montserrat';
+    margin-top: 30px;
+}
+
+.left-section h3>img {
+    height: 5%;
+    position: absolute;
+    top: 145px;
+    left: 230px;
+}
+
+.left-section h1 {
+    font-family: 'Fredoka One';
+    letter-spacing: 2px;
+    font-size: 263%;
+}
+
+.left-section>div h5 {
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.sub-headline {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.left-section>div h5>img {
+    align-items: center;
+    display: flex;
+    border: 5px solid var(--orange);
+    border-radius: 50%;
+    width: 15px;
+    position: relative;
+    right: 10px;
+    background-color: var(--orange);
+}
+
+.left-section p {
+    font-family: 'Montserrat';
+    opacity: 0.7;
+    font-weight: 100;
+    font-size: xx-small;
+    margin-top: 30px;
+}
+
+.left-section>:last-child>.action-btn {
+    background-color: var(--orange);
+    color: #f0f8ff;
+    border-radius: 25px;
+    border: 0px solid var(--orange);
+    padding: 12px 30px;
+    margin-top: 80px;
+}
+
+.discount {
+    position: absolute;
+    z-index: 1;
+    top: 390px;
+    left: 780px;
+    width: 10%;
+}
+
+.right-section .discount-content {
+    font-size: small;
+    font-family: 'Fredoka One';
+    position: absolute;
+    font-weight: lighter;
+    top: 368px;
+    left: 815px;
+    z-index: 1;
+    color: #f0f8ff;
+}
+
+.discount-content h4 {
+    font-size: smaller;
+    font-weight: 100;
+}
+
+.headphone-div>:first-child {
+    height: 20%;
+    position: absolute;
+    top: 330px;
+    -webkit-filter: drop-shadow(5px 5px 9px #696363);
+    filter: drop-shadow(0px 6px 0px #968e8e);
+}
+
+.dots {
+    position: absolute;
+    display: flex;
+    flex: 1;
+    margin-top: 410px;
+    margin-left: 190px;
+}
+
+.dot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.yellow-dot {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e502;
+    border: 5px solid #e5e502;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.black-dot {
+    background-color: #000000;
+    border: 5px solid #000000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.tomato-dot {
+    background-color: #ff6f00;
+    border: 5px solid #ff6f00;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.right-section>button {
+    background-color: var(--orange);
+    color: #f0f8ff;
+    border-radius: 25px;
+    border: 0px solid var(--orange);
+    padding: 12px 30px;
+    position: absolute;
+    top: 585px;
+    left: 960px;
+}
+
+@media screen and (max-width:600px) {
+    .headphone-div>:last-child {
+        position: absolute;
+        height: 100px;
+        left: 390px;
+        /* display: none; */
+        /* border: 5px solid red; */
+    }
+    nav .nav-items {
+        flex-direction: column;
+    }
+    .left-section h1 {
+        font-size: small;
+    }
+    .left-section h3 {
+        font-size: small;
+    }
+    .left-section h3>img {
+        display: none;
+    }
+    .sub-headline {
+        font-weight: 100;
+    }
+}

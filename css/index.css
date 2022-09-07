@@ -138,17 +138,17 @@ nav .nav-items :hover {
     position: absolute;
     z-index: 1;
     top: 390px;
-    left: 780px;
+    left: 680px;
     width: 10%;
 }
 
-.right-section .discount-content {
+.discount-content {
     font-size: small;
     font-family: 'Fredoka One';
     position: absolute;
     font-weight: lighter;
     top: 368px;
-    left: 815px;
+    left: 710px;
     z-index: 1;
     color: #f0f8ff;
 }
@@ -170,8 +170,8 @@ nav .nav-items :hover {
     position: absolute;
     display: flex;
     flex: 1;
-    margin-top: 410px;
-    margin-left: 190px;
+    margin-top: 380px;
+    margin-left: 110px;
 }
 
 .dot {
@@ -213,8 +213,8 @@ nav .nav-items :hover {
     border: 0px solid var(--orange);
     padding: 12px 30px;
     position: absolute;
-    top: 585px;
-    left: 960px;
+    top: 555px;
+    left: 802px;
 }
 
 @media screen and (max-width:600px) {
@@ -222,8 +222,7 @@ nav .nav-items :hover {
         position: absolute;
         height: 100px;
         left: 390px;
-        /* display: none; */
-        /* border: 5px solid red; */
+    
     }
     nav .nav-items {
         flex-direction: column;

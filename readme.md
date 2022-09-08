@@ -10,10 +10,6 @@
 
 ***
 
-![badge](https://img.shields.io/badge/-YouTube-red)
-
-
-- [YouTube](https://youtu.be/S8aqa7B5lPk "YouTube Link")
 
 ![badge](https://img.shields.io/badge/-Live%20project%20link-green)
 
